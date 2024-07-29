@@ -29,10 +29,8 @@ camera:
   rotateSpeed:        0.5           # camera rotation speed
 
 time:
-  type:               base          # type of the time system: either base or real
-  # initialDate:        0             # the initial date, in seconds (real only)
-  hoursPerDay:        24             # number of hours in a day (Kerbal day) (base only)
-  daysPerYear:        365           # number of days per year (Kerbal year) (base only)
+  type:               real          # type of the time system: either base or real
+  initialDate:        0             # the initial date, in seconds (real only)
 
 flybySequence:
   radiusSamples:      10            # number of samples radius samples to test when evaluating a sequence feasability
